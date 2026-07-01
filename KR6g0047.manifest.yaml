@@ -1,0 +1,93 @@
+canonical_identifier: bkk:krp/KR6g0047/v1
+canonical_location: https://kanripo.org/bkk/KR6g0047/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 遺教經補註
+  identifiers:
+    alt_id:
+    - X37n0665
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X37/X37n0665.xml
+    old_id: X37n0665
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6g0047_000.yaml, hash: 'sha256:c7ebf66d462cfe3497c9daf2982b8c443b4881bc85d2aa3d6ed227a108455eba'}
+  - {seq: 1, filename: KR6g0047_001.yaml, hash: 'sha256:fdbadee9be2a6e2945b45f78415b67bcf3ac2019389ff7b060b7fd3bc84b01e1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6g0047_000.markers.yaml, hash: 'sha256:b8f4ae1ad0e29d3b51615fcf606ce98dec5f629301638398af0b510ec568db70'}
+  - {seq: 1, role: markers, filename: assets/KR6g0047_001.markers.yaml, hash: 'sha256:c874083d89344fabe774c7eb516e60ebacf9d673ba101cacacae29084dbeacc4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6g0047_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 665-A 唐太宗文皇帝施行遺教經勑
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6g0047_X_000-mulu-2
+    span:
+    - front
+    - 194
+    - 194
+  label: No. 665-B 宋真宗皇帝刊遺教經
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6g0047_X_000-mulu-3
+    span:
+    - front
+    - 366
+    - 366
+  label: No. 665-C 重刊遺教經註解序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6g0047_X_000-mulu-4
+    span:
+    - front
+    - 769
+    - 769
+  label: 佛遺教經註
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6g0047_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 6675
+  label: 佛遺教經註
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6g0047_X_001-mulu-1
+    span:
+    - body
+    - 6280
+    - 6280
+  label: No. 665-D
+  type: mulu
+  level: 1
+hash: sha256:c45b5c9f0b3597690521b43bcea44ef74d6dd97e4a21bdd925d9a4908662ee6f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
