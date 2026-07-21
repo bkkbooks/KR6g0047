@@ -21,17 +21,17 @@ editions:
 - short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6g0047_000.yaml, hash: 'sha256:4d45057a67c557fded454f6cc0e9e22b282d8652742af966d6771549f428e008'}
+  - {seq: 0, filename: KR6g0047_000.yaml, hash: 'sha256:ca906246c357026a172af6c3e97d313cfff080ae09e551089bab5e1b3b7c0bdc'}
   - {seq: 1, filename: KR6g0047_001.yaml, hash: 'sha256:53371dd44655abf5b0e8a78b846cb13d2713e7795a7a7738fa579f87fa382b65'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6g0047_000.markers.yaml, hash: 'sha256:5b86606bf2831b099b6bf0a8a5a3942eb536b31276607fac540eaa4e10641225'}
+  - {seq: 0, role: markers, filename: assets/KR6g0047_000.markers.yaml, hash: 'sha256:94a1fa04340a2daf2a687e9db3e3e236ef93bfedaba7ceb269912e0c680ece99'}
   - {seq: 1, role: markers, filename: assets/KR6g0047_001.markers.yaml, hash: 'sha256:0c34c801654f1f4ef4f1577a8e18ed66ab52e92cbde39526fad223d4f1a14697'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6g0047_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 665-A 唐太宗文皇帝施行遺教經勑
@@ -41,7 +41,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6g0047_X_000-mulu-2
     span:
-    - front
+    - body
     - 194
     - 194
   label: No. 665-B 宋真宗皇帝刊遺教經
@@ -51,7 +51,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6g0047_X_000-mulu-3
     span:
-    - front
+    - body
     - 366
     - 366
   label: No. 665-C 重刊遺教經註解序
@@ -61,7 +61,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6g0047_X_000-mulu-4
     span:
-    - front
+    - body
     - 769
     - 769
   label: 佛遺教經註
@@ -87,7 +87,7 @@ table_of_contents:
   label: No. 665-D
   type: mulu
   level: 1
-hash: sha256:e52cff09cb4f12d14719f0e6b4ef46a9f1bd3940e993caeb72c8f1499a123f5c
+hash: sha256:440771650bb42dbd94639930f801012d95dfd85bac9d965ed8c5ab19263dee89
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
